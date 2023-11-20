@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 85vh;
+    /* border: 1px solid white; */
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    /* border-radius: 10px; */
+
+}
+
+/* --------------------------left part------------------------4 */
+
+.left-textpart {
+    width: 40%;
+    height: 85vh;
+    /* border: 1px solid white; */
+    padding-left: 100px;
+    background-color: rgb(247, 169, 102);
+}
+
+/* ---------------------------nav bar----------------------- */
+
+.navbar-1 {
+    /* padding-left: 100px; */
+    font-size: 3rem;
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+
+}
+
+
+/* ------------------------------textpart----------------------- */
+
+
+.text-part {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.text-part h1 {
+    font-size: 3rem;
+}
+
+.text-part h2 {
+    width: 200px;
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+.text-part p {
+    /* width: 83.5%; */
+    /* border: 1px solid black; */
+    text-align: justify;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+
+/* ---------------------------button------------------------ */
+
+
+.text-part span {
+    padding-top: 30px;
+}
+
+#up {
+    width: 100px;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-right: 50px;
+}
+
+#in {
+    width: 100px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: transparent;
+}
+
+
+
+/* -----------------------right-textpart--------------------- */
+
+.right-textpart {
+    width: 60%;
+    height: 85vh;
+    background-color: rgb(48, 47, 47);
+    /* border: 1px solid white; */
+}
+
+.navbar-2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-inline: 20px;
+
+}
+
+.navbar-2 ul {
+    display: flex;
+}
+
+.navbar-2 ul li {
+
+    color: white;
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.navbar-2 input {
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+/* -------------------text-part-2--------------------------- */
+
+.text-part-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.text-part-2 h1 {
+    color: white;
+    font-size: 3rem;
+    padding-top: 50px;
+}
+
+#wtc-btn{
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+.text-part-2 p{
+    color: white;
+    font-size: 20px;
+    /* margin-left: 60px; */
+    padding-left: 60px;
+    /* position: relative; */
+}
+
+.images{
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+#image-1{
+    width: 250px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+   
+    /* border: 1px solid white; */
+    
+}
+
+#image-2{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+    
+}
