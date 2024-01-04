@@ -1,0 +1,1074 @@
+@media (max-width:350px) {
+    .main-container {
+
+        background-repeat: repeat;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    /* --------------------------left part------------------------4 */
+
+    .left-textpart {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        padding-left: 0;
+        padding-bottom: 15px;
+
+    }
+
+    /* ---------------------------nav bar----------------------- */
+
+    .navbar-1 {
+
+        padding-left: 20px;
+
+    }
+
+
+    /* ------------------------------textpart----------------------- */
+
+
+    .text-part {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .text-part h1 {
+        font-size: 3rem;
+    }
+
+    .text-part h2 {
+        width: 180px;
+        border-bottom: 2px solid black;
+    }
+
+    .text-part p {
+        text-align: start;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+
+    .text-part p br {
+        display: none;
+    }
+
+
+    /* ---------------------------button------------------------ */
+
+
+    .text-part span {
+        padding-top: 30px;
+    }
+
+    #up {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* -----------------------right-textpart--------------------- */
+
+    .right-textpart {
+        width: 100%;
+        height: auto;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .navbar-2 {
+        display: none;
+
+    }
+
+
+
+
+    /* -------------------text-part-2--------------------------- */
+
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .text-part-2 h1 {
+        /* color: white; */
+        font-size: 1.5rem;
+        text-align: center;
+        /* padding-top: 50px; */
+    }
+
+    #wtc-btn {
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+
+    .text-part-2 p {
+        color: white;
+        font-size: 15px;
+        /* margin-left: 60px; */
+        padding-left: 0;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+
+    .images {
+        width: 100%;
+        height: 70;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+
+    #image-1 {
+        width: 150px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+
+        /* border: 1px solid white; */
+
+    }
+
+    #image-2 {
+        width: 120px;
+        position: absolute;
+        left: 60%;
+        right: 0;
+        bottom: 0%;
+
+    }
+}
+
+
+@media (min-width:351px) and (max-width:500px) {
+    .main-container {
+
+        background-repeat: repeat;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    /* --------------------------left part------------------------4 */
+
+    .left-textpart {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        padding-left: 0;
+        padding-bottom: 15px;
+
+    }
+
+    /* ---------------------------nav bar----------------------- */
+
+    .navbar-1 {
+
+        padding-left: 20px;
+
+    }
+
+
+    /* ------------------------------textpart----------------------- */
+
+
+    .text-part {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .text-part h1 {
+        font-size: 3rem;
+    }
+
+    .text-part h2 {
+        width: 180px;
+        border-bottom: 2px solid black;
+    }
+
+    .text-part p {
+        text-align: start;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+
+    .text-part p br {
+        display: none;
+    }
+
+
+    /* ---------------------------button------------------------ */
+
+
+    .text-part span {
+        padding-top: 30px;
+    }
+
+    #up {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* -----------------------right-textpart--------------------- */
+
+    .right-textpart {
+        width: 100%;
+        height: auto;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .navbar-2 {
+        display: none;
+
+    }
+
+
+
+
+    /* -------------------text-part-2--------------------------- */
+
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-part-2 h1 {
+        /* color: white; */
+        font-size: 1.5rem;
+        text-align: center;
+        /* padding-top: 50px; */
+    }
+
+    #wtc-btn {
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+    .text-part-2 p {
+        color: white;
+        font-size: 15px;
+        /* margin-left: 60px; */
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .images {
+        width: 100%;
+        height: 70;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+
+    #image-1 {
+        width: 180px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+
+        /* border: 1px solid white; */
+
+    }
+
+    #image-2 {
+        width: 150px;
+        position: absolute;
+        left: 60%;
+        right: 0;
+        bottom: 0%;
+
+    }
+}
+
+
+@media (min-width:501px) and (max-width:600px) {
+    .main-container {
+
+        background-repeat: repeat;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+
+
+
+    }
+
+    /* --------------------------left part------------------------4 */
+
+    .left-textpart {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid white; */
+        padding-left: 0;
+        padding-bottom: 15px;
+
+    }
+
+    /* ---------------------------nav bar----------------------- */
+
+    .navbar-1 {
+
+        padding-left: 20px;
+
+    }
+
+
+    /* ------------------------------textpart----------------------- */
+
+
+    .text-part {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .text-part h1 {
+        font-size: 3rem;
+    }
+
+    .text-part h2 {
+        width: 180px;
+        border-bottom: 2px solid black;
+    }
+
+    .text-part p {
+        text-align: start;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+
+    .text-part p br {
+        display: none;
+    }
+
+
+    /* ---------------------------button------------------------ */
+
+
+    .text-part span {
+        padding-top: 30px;
+    }
+
+    #up {
+        margin-right: 0;
+    }
+
+
+
+
+
+    /* -----------------------right-textpart--------------------- */
+
+    .right-textpart {
+        width: 100%;
+        height: auto;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .navbar-2 {
+        display: none;
+
+    }
+
+
+
+
+    /* -------------------text-part-2--------------------------- */
+
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-part-2 h1 {
+        /* color: white; */
+        font-size: 1.5rem;
+        text-align: center;
+        /* padding-top: 50px; */
+    }
+
+    #wtc-btn {
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+    .text-part-2 p {
+        color: white;
+        font-size: 15px;
+        /* margin-left: 60px; */
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .images {
+        width: 100%;
+        height: 70;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+
+    #image-1 {
+        width: 180px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+
+        /* border: 1px solid white; */
+
+    }
+
+    #image-2 {
+        width: 150px;
+        position: absolute;
+        left: 60%;
+        right: 0;
+        bottom: 0%;
+
+    }
+}
+
+
+@media (min-width:601px) and (max-width:768px) {
+    .main-container {
+
+        background-repeat: repeat;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    /* --------------------------left part------------------------4 */
+
+    .left-textpart {
+        width: 40%;
+        height: auto;
+        padding-left: 0;
+        padding-bottom: 15px;
+
+    }
+
+    /* ---------------------------nav bar----------------------- */
+
+    .navbar-1 {
+        padding-left: 20px;
+    }
+
+
+    /* ------------------------------textpart----------------------- */
+
+
+    .text-part {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .text-part h1 {
+        font-size: 36px;
+    }
+
+    .text-part h2 {
+        width: 110px;
+        border-bottom: 2px solid black;
+        font-size: 2rem;
+
+    }
+
+    .text-part p {
+        text-align: start;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .text-part p br {
+        display: none;
+    }
+
+
+    /* ---------------------------button------------------------ */
+
+
+    .text-part span {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #up {
+        margin-right: 0;
+        margin-right: 5px;
+    }
+
+
+
+
+
+    /* -----------------------right-textpart--------------------- */
+
+    .right-textpart {
+        width: 60%;
+        height: auto;
+        background-color: rgb(48, 47, 47);
+    }
+
+    .navbar-2 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+
+    }
+
+    .navbar-2 ul {
+        display: flex;
+    }
+
+    .navbar-2 ul li {
+
+        color: white;
+        list-style: none;
+        padding: 0px 10px;
+        /* padding-right: 10px; */
+        font-size: 13px;
+        /* border: 1px solid red; */
+    }
+
+    .navbar-2 input {
+        width: 180px;
+        border-radius: 20px;
+        border: none;
+        font-size: 17px;
+        height: 30px;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+        display: none;
+    }
+
+
+
+
+
+    /* -------------------text-part-2--------------------------- */
+
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-part-2 h1 {
+        /* color: white; */
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    #wtc-btn {
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .text-part-2 p {
+        color: white;
+        font-size: 15px;
+        /* margin-left: 60px; */
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .images {
+        width: 100%;
+        height: 70;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+
+    #image-1 {
+        width: 170px;
+        position: absolute;
+        left: 4%;
+        top: 10%;
+
+        /* border: 1px solid white; */
+
+    }
+
+    #image-2 {
+        width: 150px;
+        position: absolute;
+        left: 60%;
+        right: 0;
+        bottom: 0%;
+
+    }
+}
+
+@media (min-width:769px) and (max-width:1000px) {
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./assets/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        width: 80%;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    /* --------------------------left part------------------------4 */
+    
+    .left-textpart {
+        width: 40%;
+        height: 85vh;
+        /* border: 1px solid white; */
+        padding-left: 15px;
+        background-color: rgb(247, 169, 102);
+    }
+    
+    /* ---------------------------nav bar----------------------- */
+    
+    .navbar-1 {
+        /* padding-left: 100px; */
+        font-size: 3rem;
+        padding-top: 10px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    
+    }
+    
+    
+    /* ------------------------------textpart----------------------- */
+    
+    
+    .text-part {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        /* border: 1px solid white; */
+    }
+    
+    .text-part h1 {
+        font-size: 2.3rem;
+    }
+    
+    .text-part h2 {
+        width: 110px;
+        font-size: 2rem;
+        border-bottom: 2px solid black;
+        color: white;
+    }
+    
+    .text-part p {
+        text-align: start;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    
+    .text-part br{
+        display: none;
+    }
+    
+    /* ---------------------------button------------------------ */
+    
+    
+    .text-part span {
+        padding-top: 30px;
+        display: flex;
+        /* margin-right: 5px; */
+    }
+    
+    #up {
+        width: 100px;
+        height: 28px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        margin-right: 15px;
+    }
+    
+    #in {
+        width: 100px;
+        height: 28px;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: transparent;
+    }
+    
+    
+    
+    /* -----------------------right-textpart--------------------- */
+    
+    .right-textpart {
+        width: 60%;
+        height: 85vh;
+        background-color: rgb(48, 47, 47);
+        /* border: 1px solid white; */
+    }
+    
+    .navbar-2 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-inline: 0;
+    
+    }
+    
+    .navbar-2 ul {
+        display: flex;
+    }
+    
+    .navbar-2 ul li {
+    
+        color: white;
+        list-style: none;
+        padding: 20px 20px;
+    }
+    
+    .navbar-2 input {
+        width: 180px;
+        border-radius: 20px;
+        border: none;
+        font-size: 17px;
+        height: 30px;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+        display: none;
+    }
+    
+    /* -------------------text-part-2--------------------------- */
+    
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .text-part-2 h1 {
+        color: white;
+        font-size: 2.3rem;
+        padding-top: 0;
+    }
+    
+    #wtc-btn{
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    
+    .text-part-2 p{
+        color: white;
+        font-size: 18px;
+        /* margin-left: 60px; */
+        padding-left: 60px;
+        margin-top: 5px;
+
+        /* position: relative; */
+    }
+    
+    .images{
+        width: 100%;
+        height: 45vh;
+        /* border: 1px solid white; */
+        position: relative;
+    }
+    
+    #image-1{
+        width: 200px;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+       
+        /* border: 1px solid white; */
+        
+    }
+    
+    #image-2{
+        width: 110px;
+        position: absolute;
+        left: 70%;
+        bottom: 45%;
+        
+    }
+}
+
+
+@media (min-width:1001) {
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./assets/pawel-czerwinski-tMbQpdguDVQ-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        width: 80%;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    /* --------------------------left part------------------------4 */
+    
+    .left-textpart {
+        width: 40%;
+        height: 85vh;
+        /* border: 1px solid white; */
+        padding-left: 100px;
+        background-color: rgb(247, 169, 102);
+    }
+    
+    /* ---------------------------nav bar----------------------- */
+    
+    .navbar-1 {
+        /* padding-left: 100px; */
+        font-size: 3rem;
+        padding-top: 10px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    
+    }
+    
+    
+    /* ------------------------------textpart----------------------- */
+    
+    
+    .text-part {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        /* border: 1px solid white; */
+    }
+    
+    .text-part h1 {
+        font-size: 3rem;
+    }
+    
+    .text-part h2 {
+        width: 200px;
+        font-size: 3rem;
+        border-bottom: 2px solid black;
+        color: white;
+    }
+    
+    .text-part p {
+        text-align: justify;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    
+    
+    /* ---------------------------button------------------------ */
+    
+    
+    .text-part span {
+        padding-top: 30px;
+    }
+    
+    #up {
+        width: 100px;
+        height: 28px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+        margin-right: 50px;
+    }
+    
+    #in {
+        width: 100px;
+        height: 28px;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: transparent;
+    }
+    
+    
+    
+    /* -----------------------right-textpart--------------------- */
+    
+    .right-textpart {
+        width: 60%;
+        height: 85vh;
+        background-color: rgb(48, 47, 47);
+        /* border: 1px solid white; */
+    }
+    
+    .navbar-2 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+    
+    }
+    
+    .navbar-2 ul {
+        display: flex;
+    }
+    
+    .navbar-2 ul li {
+    
+        color: white;
+        list-style: none;
+        padding: 20px 20px;
+    }
+    
+    .navbar-2 input {
+        width: 180px;
+        border-radius: 20px;
+        border: none;
+        font-size: 17px;
+        height: 30px;
+        margin-top: 20px;
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+    
+    /* -------------------text-part-2--------------------------- */
+    
+    .text-part-2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .text-part-2 h1 {
+        color: white;
+        font-size: 3rem;
+        padding-top: 50px;
+    }
+    
+    #wtc-btn{
+        width: 140px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    
+    .text-part-2 p{
+        color: white;
+        font-size: 20px;
+        /* margin-left: 60px; */
+        padding-left: 60px;
+        /* position: relative; */
+    }
+    
+    .images{
+        width: 100%;
+        height: 45vh;
+        /* border: 1px solid white; */
+        position: relative;
+    }
+    
+    #image-1{
+        width: 250px;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+       
+        /* border: 1px solid white; */
+        
+    }
+    
+    #image-2{
+        width: 150px;
+        position: absolute;
+        left: 50%;
+        bottom: 45%;
+        
+    }
+}

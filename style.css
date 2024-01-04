@@ -25,11 +25,11 @@
 .container {
     width: 80%;
     height: 85vh;
-    /* border: 1px solid white; */
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
-    /* border-radius: 10px; */
-
+    
 }
 
 /* --------------------------left part------------------------4 */
@@ -79,8 +79,6 @@
 }
 
 .text-part p {
-    /* width: 83.5%; */
-    /* border: 1px solid black; */
     text-align: justify;
     font-size: 13px;
     padding-top: 20px;
